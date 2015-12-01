@@ -590,6 +590,7 @@ module.exports.useragents = {
       }
     , 'Mozilla/5.0 (iPhone Simulator; U; CPU iPhone OS 4_3_2 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8H7 Safari/6533.18.5': {
         ios: true
+      , name: 'Safari'
       , osversion: '4.3.2'
       , version: '5.0'
       , iphone: true
@@ -598,7 +599,8 @@ module.exports.useragents = {
       , c: true
       }
     , 'Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1A543a Safari/419.3': {
-        ios: true
+        name: 'Safari'
+      , ios: true
       , version: '3.0'
       , iphone: true
       , mobile: true
@@ -607,6 +609,7 @@ module.exports.useragents = {
       }
     , 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_1 like Mac OS X; en-us) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8B5097d Safari/6531.22.7': {
         ios: true
+      , name: 'Safari'
       , osversion: '4.1'
       , version: '4.0'
       , iphone: true
@@ -627,7 +630,7 @@ module.exports.useragents = {
       'Mozilla/5.0 (iPad; CPU OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B554a Safari/9537.53': {
         ios: true
       , osversion: '7.0.4'
-      , name: 'iPad'
+      , name: 'Safari'
       , version: '7.0'
       , ipad: true
       , tablet: true
@@ -637,7 +640,7 @@ module.exports.useragents = {
     , 'Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5355d Safari/8536.25': {
         ios: true
       , osversion: '6.0'
-      , name: 'iPad'
+      , name: 'Safari'
       , version: '6.0'
       , ipad: true
       , tablet: true
@@ -646,8 +649,8 @@ module.exports.useragents = {
       }
     , 'Mozilla/5.0 (iPad; CPU OS 5_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko ) Version/5.1 Mobile/9B176 Safari/7534.48.3': {
         ios: true
+      , name: 'Safari'
       , osversion: '5.1'
-      , name: 'iPad'
       , version: '5.1'
       , ipad: true
       , tablet: true
@@ -656,8 +659,8 @@ module.exports.useragents = {
       }
     , 'Mozilla/5.0 (iPad; U; CPU OS 4_3_2 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8H7 Safari/6533.18.5': {
         ios: true
+      , name: 'Safari'
       , osversion: '4.3.2'
-      , name: 'iPad'
       , version: '5.0'
       , ipad: true
       , tablet: true
@@ -666,8 +669,8 @@ module.exports.useragents = {
       }
     , 'Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; es-es) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B360 Safari/531.21.10': {
         ios: true
+      , name: 'Safari'
       , osversion: '3.2'
-      , name: 'iPad'
       , version: '4.0'
       , ipad: true
       , tablet: true
@@ -678,6 +681,7 @@ module.exports.useragents = {
   , iPod: {
       'Mozilla/5.0 (iPod touch; CPU iPhone OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B511 Safari/9537.53': {
         ios: true
+      , name: 'Safari'
       , osversion: '7.0.3'
       , version: '7.0'
       , ipod: true
@@ -687,6 +691,7 @@ module.exports.useragents = {
       }
     , 'Mozilla/5.0 (iPod; CPU iPhone OS 5_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9B176 Safari/7534.48.3': {
         ios: true
+      , name: 'Safari'
       , osversion: '5.1'
       , version: '5.1'
       , ipod: true
@@ -696,6 +701,7 @@ module.exports.useragents = {
       }
     , 'Mozilla/5.0 (iPod; U; CPU iPhone OS 4_3_3 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5': {
         ios: true
+      , name: 'Safari'
       , osversion: '4.3.3'
       , version: '5.0'
       , ipod: true
@@ -705,6 +711,7 @@ module.exports.useragents = {
       }
     , 'Mozilla/5.0 (iPod; U; CPU like Mac OS X; en) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/4A93 Safari/419.3': {
         ios: true
+      , name: 'Safari'
       , version: '3.0'
       , ipod: true
       , mobile: true

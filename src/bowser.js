@@ -95,10 +95,25 @@
       , version: getFirstMatch(/(?:chrome|crios|crmo)\/(\d+(\.\d+)?)/i)
       }
     }
-    else if (iosdevice) {
+
+    else if (iosdevice && /safari/i.test(ua)) {
       result = {
-        name : iosdevice == 'iphone' ? 'iPhone' : iosdevice == 'ipad' ? 'iPad' : 'iPod'
+        name : 'Safari'
+      };
+
+
+      // WTF: version is not part of user agent in web apps
+      if (versionIdentifier) {
+        result.version = versionIdentifier
       }
+    }
+
+    else if (iosdevice) {
+
+        result = {
+          name : iosdevice == 'iphone' ? 'iPhone' : iosdevice == 'ipad' ? 'iPad' : 'iPod'
+        };
+
       // WTF: version is not part of user agent in web apps
       if (versionIdentifier) {
         result.version = versionIdentifier
